@@ -193,7 +193,7 @@
                     <button class="rounded-full py-3  md:w-1/5  w-4/5 text-xl hover:bg-cyan-400 text-white  bg-cyan-500 hover:shadow-md hover:shadow-cyan-400 hover:font-semibold">Partner with us →</button>
                     <div class="md:w-4/5 w-full mt-10 md:my-10 my-4" data-aos="fade-right">
                         <picture>
-                            <source media="(max-width:600px)" srcset="./assets/mobile-brand-img.5592f513.png ">
+                            <source media="(max-width:600px)" srcset="./assets/images/mobile-brand-img.5592f513.png">
                             <img src="./assets/images/brands img.096c44d6.png" class="w-auto object-cover">
                         </picture>
                     </div>
@@ -347,6 +347,12 @@
 
     </main>
 
+        <script type="module">
+            function menu(e){
+        let list = document.querySelector("nav ul");
+        e.name=== 'menu' ? (e.name="close",list.classList.add('top-[68px]'),list.classList.add('block'),list.classList.remove('hidden'),list.classList.add('z-[1110]')): (e.name="menu",list.classList.remove('top-[68px]'),list.classList.remove('block'),list.classList.add('hidden'),list.classList.remove('z-[1110]'));
+        }
+        </script>
     <!--  js file -->
     <script  src="./assets/js/jquery-3.6.0.min.js"></script>
     <script  src="./assets/js/aso.js"></script>
