@@ -30,8 +30,4 @@ $(document).ready(function () {
       });
       
 });
-function menu(e){
-  let list = document.querySelector("nav ul");
-  e.name=== 'menu' ? (e.name="close",list.classList.add('top-[68px]'),list.classList.add('block'),list.classList.remove('hidden'),list.classList.add('z-[1110]')): (e.name="menu",list.classList.remove('top-[68px]'),list.classList.remove('block'),list.classList.add('hidden'),list.classList.remove('z-[1110]'));
-}
 AOS.init();
