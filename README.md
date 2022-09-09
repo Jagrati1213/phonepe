@@ -11,4 +11,4 @@ It was a clone of PhonePe "used for UPI, transitions".
 - Slick Slider
 ## ##
 **It was a Tailwind Project**\
-*You Can check out the [PhonePe-clone](https://Jagrati1213.github.io/phonpe-clone)*
+*You Can check out the [PhonePe-clone](https://jagrati1213.github.io/phonepe/)*
