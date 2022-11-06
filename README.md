@@ -9,6 +9,9 @@ It was a clone of PhonePe home page.
 - Iconic icons
 - Tailwind CSS
 - Slick Slider
+### Pending Works ###
+- Add Backend
+- SEO
 ## ##
 **It was a Tailwind Project**\
 *Devloyed link- [PhonePe-clone](https://jagrati1213.github.io/phonepe/)*
